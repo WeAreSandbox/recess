@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    Recess
+	    (null)
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -39,8 +39,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
-.bloc-md{
-	padding:50px;
+.bloc-lg{
+	padding:100px 50px;
 }
 .bloc-sm{
 	padding:20px 50px;
@@ -97,33 +97,37 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(0,0,0,.3);
 }
 
+
+/* Light theme */
+
+.d-bloc .panel,.l-bloc{
+	color:rgba(0,0,0,.5);
+}
+.d-bloc .panel button:hover,.l-bloc button:hover{
+	color:rgba(0,0,0,.7);
+}
+.l-bloc .icon-round,.l-bloc .icon-square,.l-bloc .icon-rounded,.l-bloc .icon-semi-rounded-a,.l-bloc .icon-semi-rounded-b{
+	border-color:rgba(0,0,0,.7);
+}
+.d-bloc .panel .divider-h span,.l-bloc .divider-h span{
+	border-color:rgba(0,0,0,.1);
+}
+.d-bloc .panel .a-btn,.l-bloc .a-btn,.l-bloc .navbar a,.l-bloc .navbar-brand,.l-bloc a .icon-sm, .l-bloc a .icon-md, .l-bloc a .icon-lg, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .panel .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover, .l-bloc .navbar-brand:hover, .l-bloc a:hover .icon-sm, .l-bloc a:hover .icon-md, .l-bloc a:hover .icon-lg, .l-bloc a:hover .icon-xl, .l-bloc h1 a:hover, .l-bloc h2 a:hover, .l-bloc h3 a:hover, .l-bloc h4 a:hover, .l-bloc h5 a:hover, .l-bloc h6 a:hover, .l-bloc p a:hover{
+	color:rgba(0,0,0,1);
+}
+.l-bloc .navbar-toggle .icon-bar{
+	color:rgba(0,0,0,.6);
+}
+.d-bloc .panel .btn-wire,.d-bloc .panel .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
+	color:rgba(0,0,0,.7);
+	border-color:rgba(0,0,0,.3);
+}
+
 /* Bloc text custom styling */
 
-#bloc-1 h3{
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 38px;
-}
-#bloc-1 h4{
-	font-size: 18px;
-	font-family: Lato;
-	font-weight: 400;
-}
-#bloc-1 p{
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 15px;
-}
-#bloc-1 h2{
-	line-height: 49px;
-	font-family: Lato;
-	font-weight: 400;
-}
-#bloc-2 h3{
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 14px;
-}
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -271,9 +275,6 @@ button{
 	outline: none!important;
 }
 
-.btn-sq{
-	border-radius: 0px;
-}
 .btn .caret{
 	margin:0 0 0 5px}.dropdown a .caret{
 	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
@@ -297,22 +298,6 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
-}
 
 
 /* iFrame */
@@ -351,113 +336,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1170px;
 }
-.logo{
-	padding-bottom:50px;
-	font-size:50px;
-	line-height:79px;
-}
-.bigbody{
-	font-family:"Lato";
-	font-weight:400;
-	font-size:28px;
-	text-transform:none;
-	line-height:70px;
-	float:none;
-	overflow:visible;
-}
-.big-body-text{
-}
-.body{
-}
-.menulinks{
-	margin-top:100px;
-	font-family:"Lato";
-	font-weight:400;
-	text-transform:uppercase;
-	font-size:12px;
-}
-.smallbody{
-}
-.link{
-	text-decoration:underline!important;
-}
-.divider{
-	padding-left:300px;
-	padding-top:50px;
-	padding-bottom:50px;
-}
-.topdivider{
-}
-.bottomdivider{
-	padding-top:100px;
-}
-.blankside{
-	float:left;
-}
-.label{
-	display:inline;
-}
-label{
-	float:none;
-	overflow:visible;
-	color:rgba(255,255,255,0.2)!important;
-	text-transform:none;
-	font-family:"Lato";
-	font-weight:400;
-	display:inline-block;
-	font-size:12px;
-}
-.bigbodyalt{
-	margin-left:-110px;
-}
-.h6{
-}
-h6{
-	font-size:12px;
-	color:rgba(255,255,255,0.4)!important;
-	text-transform:none;
-	font-family:"Lato";
-	font-weight:400;
-}
-.willthiswork{
-}
-.ro{
-}
-.rotate{
-}
-.smallheaders{
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:10px;
-}
-.smallheader{
-	font-family:"Noto Sans";
-}
-.build-with-blocs-bloc{
-	background-color:#000;
-	color:rgba(255,255,255,0.4);
-}
-.build-with-blocs-bloc p{
-	font-size:11px;
-	font-family:"helvetica";
-	font-weight:bold;
-	color:rgba(255,255,255,0.8);
-}
-.blocs-mobile-signup-text{
-	font-size:33px;
-}
-.builtby{
-	padding-top:45px;
-	font-size:12px;
-}
-.rsvp{
-	margin-top:50px;
-	margin-bottom:30px;
-	font-size:18px;
-	font-family:"Lato";
-	font-weight:400;
-	text-transform:none;
-	padding:20px 20px 20px 20px;
+.thelink{
+	margin-right:30px;
+	margin-left:30px;
 }
 
 /* = Colour
@@ -465,18 +346,11 @@ h6{
 
 /* Background colour styles */
 
+.bgc-isabelline{
+	background-color:#EEEEED;
+}
 .bgc-dark-jungle-green{
 	background-color:#222222;
-}
-/* Button colour styles */
-
-.btn-rifle-green{
-	background:#3F3F3F;
-	color:#FFFFFF!important;
-}
-.btn-rifle-green:hover{
-	background:#323232;
-	color:#FFFFFF!important;
 }
 
 /* Bloc image backgrounds */
@@ -658,24 +532,4 @@ h6{
 	   width: 180px;
 	   height: 320px;
     }
-}@media (max-width: 420px){
-	.blocs-team-avatar{
-	max-width:280px;
 }
-.blocs-team-header{
-	text-align:center;
-}
-.blocs-team-details{
-	text-align:center;
-}
-.blocs-team-first-social{
-	margin-left:41%;
-}
-.bloc-mob-center-text{
-	text-align:center;
-}
-.blocs-mobile-signup-text{
-	text-align:center;
-}
-}
-
