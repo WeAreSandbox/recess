@@ -144,15 +144,21 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
+#bloc-2 p{
+	font-weight: 300;
+	font-family: 'Space Mono';
+	font-size: 32px;
+	line-height: 50px;
+}
 #bloc-5 h4{
-	font-family: Lato;
 	font-weight: 400;
 	font-size: 22px;
+	font-family: Space Mono;
 }
 #bloc-5 p{
-	font-family: Lato;
 	font-weight: 400;
 	font-size: 16px;
+	font-family: Space Mono;
 }
 
 /* = NavBar
@@ -365,6 +371,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .thelink{
 	margin-right:30px;
 	margin-left:30px;
+	font-family:"Space Mono";
 }
 .padding{
 	padding-right:50px;
