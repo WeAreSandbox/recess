@@ -42,6 +42,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bloc-lg{
 	padding:100px 50px;
 }
+.bloc-md{
+	padding:50px;
+}
 .bloc-sm{
 	padding:20px 50px;
 }
@@ -140,6 +143,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .d-bloc .panel .btn-wire,.d-bloc .panel .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
+}
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
 }
 
 /* Bloc text custom styling */
@@ -366,12 +375,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"helvetica";
 	font-weight:normal;
 	text-transform:none;
-	padding-top:145px;
-	padding-bottom:145px;
 	text-align:left;
 	font-size:32px;
 	line-height:52px;
 	color:#757473!important;
+	padding-top:212px;
+	padding-bottom:212px;
 }
 .projectpadding{
 	padding-top:100px;
@@ -379,6 +388,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"helvetica";
 	font-size:22px;
 	font-weight:500;
+	padding-left:200px;
 }
 .smallbody{
 	font-family:"helvetica";
@@ -386,6 +396,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	line-height:29px;
 	color:#222222!important;
 	font-weight:normal;
+}
+.paddingtext{
+	padding-right:150px;
+	padding-left:150px;
 }
 
 /* = Colour
