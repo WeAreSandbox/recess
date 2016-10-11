@@ -405,16 +405,9 @@ iframe{
 
 /* = Custom Styling
 -------------------------------------------------------------- */
-@font-face {
-	font-family: 'graphik';
-	src: url('fonts/Graphik-Regular-Web.eot')
-	format('opentype');
-	src: url('fonts/Graphik-Regular-Web.ttf')
-	format('truetype');
-
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"graphik";
+	font-family:"Helvetica";
 }
 .container{
 	max-width:1170px;
@@ -422,7 +415,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .thelink{
 	margin-right:30px;
 	margin-left:30px;
-	font-family:"graphik";
+	font-family:"helvetica";
 	color:#222222!important;
 }
 .padding{
@@ -430,7 +423,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-left:50px;
 }
 .biggerbody{
-	font-family:"graphik";
+	font-family:"helvetica";
 	font-weight:normal;
 	text-transform:none;
 	text-align:left;
@@ -441,13 +434,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-bottom:212px;
 }
 .projectpadding{
-	font-family:"graphik";
+	font-family:"helvetica";
 	font-size:20px;
 	font-weight:500;
 	color:#222222!important;
 }
 .smallbody{
-	font-family:"graphik";
+	font-family:"helvetica";
 	font-size:18px;
 	line-height:30px;
 	color:#222222!important;
@@ -460,7 +453,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .date{
 	font-size:30px;
 	color:#222222!important;
-	font-family:"graphik";
+	font-family:"helvetica";
 	font-weight:400;
 	text-decoration:overline!important;
 }
@@ -468,7 +461,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:400;
 	font-size:22px;
 	color:#151515!important;
-	font-family:"graphik";
+	font-family:"helvetica";
 	text-decoration:none;
 }
 .categories{
@@ -496,7 +489,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .build-with-blocs-bloc p{
 	font-size:11px;
-	font-family:"graphik";
+	font-family:"helvetica";
 	font-weight:bold;
 	color:rgba(255,255,255,0.8);
 }
