@@ -406,8 +406,18 @@ iframe{
 /* = Custom Styling
 -------------------------------------------------------------- */
 
+@font-face {
+	font-family: 'graphik';
+	src: url('fonts/Graphik-Regular-Web.eot')
+	format('opentype');
+	src: url('fonts/Graphik-Regular-Web.ttf')
+	format('truetype');  
+}
+
+
+
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family:"graphik";
 }
 .container{
 	max-width:1170px;
@@ -415,7 +425,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .thelink{
 	margin-right:30px;
 	margin-left:30px;
-	font-family:"helvetica";
+	font-family:"graphik";
 	color:#222222!important;
 }
 .padding{
@@ -423,7 +433,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-left:50px;
 }
 .biggerbody{
-	font-family:"helvetica";
+	font-family:"graphik";
 	font-weight:normal;
 	text-transform:none;
 	text-align:left;
@@ -434,13 +444,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-bottom:212px;
 }
 .projectpadding{
-	font-family:"helvetica";
+	font-family:"graphik";
 	font-size:20px;
 	font-weight:500;
 	color:#222222!important;
 }
 .smallbody{
-	font-family:"helvetica";
+	font-family:"graphik";
 	font-size:18px;
 	line-height:30px;
 	color:#222222!important;
@@ -453,7 +463,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .date{
 	font-size:30px;
 	color:#222222!important;
-	font-family:"helvetica";
+	font-family:"graphik";
 	font-weight:400;
 	text-decoration:overline!important;
 }
@@ -461,7 +471,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:400;
 	font-size:22px;
 	color:#151515!important;
-	font-family:"helvetica";
+	font-family:"graphik";
 	text-decoration:none;
 }
 .categories{
@@ -477,6 +487,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:12px 25px 12px 25px;
 	font-weight:bold;
 	font-size:18px;
+	color:#222222!important;
 }
 .bigbody{
 }
@@ -489,13 +500,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .build-with-blocs-bloc p{
 	font-size:11px;
-	font-family:"helvetica";
+	font-family:"graphik";
 	font-weight:bold;
 	color:rgba(255,255,255,0.8);
 }
 .footer{
 }
 .foot{
+}
+.join{
+	padding-bottom:15px;
 }
 
 /* = Colour
@@ -506,20 +520,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-isabelline{
 	background-color:#EEEEED;
 }
+.bgc-dark-jungle-green{
+	background-color:#222222;
+}
 /* Text colour styles */
 
 .tc-dark-jungle-green{
 	color:#222222!important;
 }
+.tc-isabelline{
+	color:#EEEEED!important;
+}
 /* Button colour styles */
 
-.btn-dark-jungle-green{
-	background:#222222;
-	color:#FFFFFF!important;
+.btn-isabelline{
+	background:#EEEEED;
+	color:rgba(0,0,0,.5)!important;
 }
-.btn-dark-jungle-green:hover{
-	background:#1b1b1b;
-	color:#FFFFFF!important;
+.btn-isabelline:hover{
+	background:#bebebe;
+	color:rgba(0,0,0,.5)!important;
 }
 
 /* Bloc image backgrounds */
